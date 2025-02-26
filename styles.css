@@ -1,0 +1,177 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center; /* Centra el contenido de la barra */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+nav li {
+    margin: 0 15px; /* Espacio entre los elementos del menú */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de bienvenida */
+#home {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+#home h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#home p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Estilos del menú */
+#menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#menu h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#menu .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Disposición en grid */
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.menu-item span {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.menu-item button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.menu-item button:hover {
+    background-color: #555;
+}
+
+/* Estilos del carrito */
+#cart {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#cart h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#cart button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#cart button:hover {
+    background-color: #555;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}

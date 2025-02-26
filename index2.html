@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zazozu - Restaurante japonés a domicilio en Valencia">
+    <title>Zazozu - Menú a Domicilio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#cart">Carrito</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de bienvenida -->
+    <section id="home">
+        <h1>Bienvenido a Zazozu</h1>
+        <p>Disfruta de lo mejor de la cocina japonesa en la comodidad de tu hogar. ¡Haz tu pedido a domicilio ahora y vive una experiencia única!</p>
+        <a href="#menu" class="cta-button">Ver Menú</a>
+    </section>
+
+    <!-- Sección de menú amplio -->
+    <section id="menu">
+        <h2>Menú</h2>
+        <p>Explora nuestra variedad de platos y descubre los sabores auténticos de Japón. ¡Seguro encontrarás algo que te encantará!</p>
+        <div class="menu-items">
+            <!-- Platos de sushi -->
+            <div class="menu-item">
+                <img src="images/sushi.jpg" alt="Sushi Especial">
+                <h3>Sushi Especial</h3>
+                <p>Sushi de atún, salmón y aguacate.</p>
+                <span>€15.00</span>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/sushi2.jpg" alt="Sushi de Salmón">
+                <h3>Sushi de Salmón</h3>
+                <p>Deliciosos rollos de salmón fresco con arroz al vinagre.</p>
+                <span>€12.00</span>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+
+            <!-- Platos de ramen -->
+            <div class="menu-item">
+                <img src="images/ramen.jpg" alt="Ramen Japonés">
+                <h3>Ramen Japonés</h3>
+                <p>Fideos en caldo caliente con carne de cerdo y huevo cocido.</p>
+                <span>€13.50</span>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/ramen2.jpg" alt="Ramen Vegano">
+                <h3>Ramen Vegano</h3>
+                <p>Fideos en caldo de miso con tofu y verduras frescas.</p>
+                <span>€14.00</span>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+
+            <!-- Platos de tempura -->
+            <div class="menu-item">
+                <img src="images/tempura.jpg" alt="Tempura de Mariscos">
+                <h3>Tempura de Mariscos</h3>
+                <p>Camarones y calamares crujientes acompañados de salsa especial.</p>
+                <span>€17.00</span>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/tempura2.jpg" alt="Tempura Vegetal">
+                <h3>Tempura Vegetal</h3>
+                <p>Verduras fritas en tempura, ligeras y sabrosas.</p>
+                <span>€10.00</span>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrito de compras -->
+    <section id="cart">
+        <h2>Tu Carrito</h2>
+        <ul>
+            <!-- Elementos del carrito dinámicamente -->
+        </ul>
+        <p>Total: <span id="total">€0.00</span></p>
+        <button>Finalizar compra</button>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Zazozu - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
